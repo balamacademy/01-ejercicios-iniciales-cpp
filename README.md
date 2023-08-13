@@ -1,5 +1,35 @@
 # Ejercicios para practicar C++
 
+Resuelve los siguientes ejercicios para familiarizarte con C++.
+
+Puedes usar el siguiente código como plantilla para los ejercicios.
+```cpp
+#include <iostream>
+
+int main(int argc, char **argv) {
+    std::cout << "Hola, mundo!" << std::endl;
+    return 0;
+}
+```
+
+Recuerda compilar y ejecutar con la siguiente secuencia de comandos.
+
+> Linux/MacOs
+> ```bash
+> g++ miprograma.cpp -o miprograma.o
+> ```
+
+> Windows
+> ```bash
+> g++ miprograma.cpp -o miprograma.exe
+> ```
+
+También puedes ejecutar el programa de puthon **evaluar.py**, el cual, junto con el archivo **conf_eval.json** probará tus programas para saber si estan correctos. 
+
+```bash
+python evaluar.py
+```
+
 # Condicionales IF
 1. [ ] **Número Positivo/Negativo:**
    - Descripción: Determina si un número es positivo, negativo o cero.
@@ -161,7 +191,7 @@
      Entrada: 6
      Salida: Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12,
      ```
-     > :warning: Observa que el simbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 15. [ ] **Conteo Regresivo:**
    - Descripción: Realiza un conteo regresivo desde un número hasta 1.
@@ -171,7 +201,7 @@
      Entrada: 9
      Salida: Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1,
      ```
-     > :warning: Observa que el simbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 # Ciclo While
 16. [ ] **Contador Ascendente:**
@@ -182,7 +212,7 @@
      Entrada: 5
      Salida: 1, 2, 3, 4, 5,
      ```
-     > :warning: Observa que el simbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 
 17. [ ] **Secuencia de Fibonacci:**
