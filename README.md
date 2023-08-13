@@ -7,7 +7,7 @@ Puedes usar el siguiente código como plantilla para los ejercicios.
 #include <iostream>
 
 int main(int argc, char **argv) {
-    std::cout << "Hola, mundo!" << std::endl;
+    std::cout << "Hola, mundo!\n";
     return 0;
 }
 ```
@@ -29,6 +29,75 @@ También puedes ejecutar el programa de puthon **evaluar.py**, el cual, junto co
 ```bash
 python evaluar.py
 ```
+
+:warning: Cada ejercio cuenta con un ejemplo, con la entrada y la salida esperada. Las palabras "Entrada:" y "Salida:" no deben imprimirse en la consola. Revisa bien que la salida sea escriba exactamente con el formato que el texto de ejemplo muestra, si no el programa evaluador lo marcará como fallido.
+
+- :heavy_check_mark: Ejemplo:
+     ```
+     Entrada: 22
+     Salida: Categoría: Adulto
+     ```
+- :X: Ejemplo:
+    ```
+    Entrada: Ingrese su edad: 22
+    Salida: Categoría: Adulto
+    ```
+En ningún programa se requiere que imprima un mensaje para solicitar los valores de entrada. 
+
+## **Ejemplo:** única entrada
+
+1. **Dime tu edad:**
+   - Descripción: Ingresa tu edad y muetrala en pantalla.
+   - Nombre de archivo: edad.cpp
+   - Ejemplo:
+     
+    ```
+     Entrada: 22
+     Salida: Tu edad es: 22.
+    ```
+    **Solución:**
+
+    ```cpp
+    #include <iostream>
+
+    int main(int argc, char **argv) {
+        int edad;
+        std::cin >> edad;
+        std::cout << "Tu edad es: "<< edad << ".";
+        return 0;
+    }
+    ```
+
+## **Ejemplo:** multiples entradas
+
+1. **Fecha de nacimiento:**
+   - Descripción: Ingresa tu edad y el año actual muetrala el año de nacimiento.
+   - Nombre de archivo: nacimiento.cpp
+   - Ejemplo:
+     
+    ```
+     Entrada: 22, 2023
+     Salida: Naciste en el 2001.
+    ```
+    **Solución:**
+
+    ```cpp
+    #include <iostream>
+
+    int main(int argc, char **argv) {
+        int edad;
+        int anio_actual;
+        std::cin >> edad;
+        std::cin >> anio_actual;
+        std::cout << "Naciste en el "<< (anio_actual-edad) << ".";
+        return 0;
+    }
+    ```
+
+> :warning: **Únicamente sube al repositorio los archivos fuente solicitados, aquellos que terminan en ".cpp".** 
+
+> :warning: **No los coloques dentro de carpetas.**
+
 
 # Condicionales IF
 1. [ ] **Número Positivo/Negativo:**
@@ -223,6 +292,7 @@ python evaluar.py
      Entrada: 8
      Salida: Secuencia de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13,
      ```
+     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 18. [ ] **Suma de Números:**
    - Descripción: Solicita al usuario que ingrese números hasta que ingrese un valor negativo. Luego, calcula y muestra la suma de los números ingresados.
@@ -254,3 +324,4 @@ python evaluar.py
      Entrada: Número inicial: 20, Tamaño del salto: 3
      Salida: 20, 17, 14, 11, 8, 5, 2,
      ```
+     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
