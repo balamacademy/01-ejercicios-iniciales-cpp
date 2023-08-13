@@ -48,7 +48,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 1. **Dime tu edad:**
    - Descripción: Ingresa tu edad y muetrala en pantalla.
-   - Nombre de archivo: edad.cpp
+   - Nombre de archivo: `edad.cpp`
    - Ejemplo:
      
     ```
@@ -72,7 +72,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 1. **Fecha de nacimiento:**
    - Descripción: Ingresa tu edad y el año actual muetrala el año de nacimiento.
-   - Nombre de archivo: nacimiento.cpp
+   - Nombre de archivo: `nacimiento.cpp`
    - Ejemplo:
      
     ```
@@ -98,11 +98,13 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 > :warning: **No los coloques dentro de carpetas.**
 
+> :warning: **Respeta los nombre de archivo.**
+
 
 # Condicionales IF
 1. [ ] **Número Positivo/Negativo:**
    - Descripción: Determina si un número es positivo, negativo o cero.
-   - Nombre de archivo: positivonegativo.cpp
+   - Nombre de archivo: `positivonegativo.cpp`
    - Ejemplo:
      ```
      Entrada: 5
@@ -115,7 +117,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 2. [ ] **Número Par/Impar:**
    - Descripción: Verifica si un número es par o impar.
-   - Nombre de archivo: parimpar.cpp
+   - Nombre de archivo: `parimpar.cpp`
    - Ejemplo:
      ```
      Entrada: 10
@@ -126,7 +128,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 3. [ ] **Comparación de Números:**
    - Descripción: Compara dos números y muestra cuál es mayor o si son iguales.
-   - Nombre de archivo: comparanumeros.cpp
+   - Nombre de archivo: `comparanumeros.cpp`
    - Ejemplo:
      ```
      Entrada: 7, 12
@@ -137,7 +139,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 4. [ ] **Clasificación de Notas:**
    - Descripción: Convierte una calificación numérica en una clasificación (A, B, C, etc.).
-   - Nombre de archivo: notas.cpp
+   - Nombre de archivo: `notas.cpp`
    
    | Calificación | Valor | Notas                   |
    |--------------|-------|-------------------------|
@@ -154,7 +156,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 5. [ ] **Categorización de Edades:**
    - Descripción: Categoriza una edad en "niño", "adolescente" o "adulto".
-   - Nombre de archivo: edades.cpp
+   - Nombre de archivo: `edades.cpp`
    
    | Edad |  Categoria |
    |--------------|-------|
@@ -170,7 +172,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 6. [ ] **Verificación de Contraseña:**
    - Descripción: Verifica si una contraseña ingresada es correcta.
-   - Nombre de archivo: password.cpp
+   - Nombre de archivo: `password.cpp`
    - Ejemplo:
      ```
      Entrada: "clave123"
@@ -181,7 +183,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 7. [ ] **Divisibilidad:**
    - Descripción: Determina si un número es divisible por otro número.
-   - Nombre de archivo: divisible.cpp
+   - Nombre de archivo: `divisible.cpp`
    - Ejemplo:
      ```
      Entrada: 15, 3
@@ -192,7 +194,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 8. [ ] **Categorización de Números:**
    - Descripción: Categoriza un número en "positivo", "negativo" o "cero", y luego en "pequeño" o no. "pequeño" es cuando el valor absoluto es menor que 10.
-   - Nombre de archivo: categorizanumeros.cpp
+   - Nombre de archivo: `categorizanumeros.cpp`
    - Ejemplo:
      ```
      Entrada: -8
@@ -203,7 +205,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 9. [ ] **Determinar Día de la Semana:**
    - Descripción: Asocia un número del 1 al 7 con un día de la semana.
-   - Nombre de archivo: diasemana.cpp
+   - Nombre de archivo: `diasemana.cpp`
    - Ejemplo:
      ```
      Entrada: 3
@@ -212,7 +214,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 10. [ ] **Año Bisiesto:**
     - Descripción: Verifica si un año es bisiesto o no.
-    - Nombre de archivo: bisiesto.cpp
+    - Nombre de archivo: `bisiesto.cpp`
     - Ejemplo:
       ```
       Entrada: 2024
@@ -222,7 +224,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 # Ciclo FOR
 11. [ ] **Suma de Números:**
       - Descripción: Calcula la suma de los números del 1 al `n`.
-      - Nombre de archivo: sumafor.cpp
+      - Nombre de archivo: `sumafor.cpp`
       - Ejemplo:
       ```
       Entrada: 5
@@ -231,7 +233,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 12. [ ] **Tabla de Multiplicar:**
       - Descripción: Muestra la tabla de multiplicar de un número dado.
-      - Nombre de archivo: tablafor.cpp
+      - Nombre de archivo: `tablafor.cpp`
       - Ejemplo:
       ```
       Entrada: 7
@@ -245,7 +247,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 13. [ ] **Factorial:**
       - Descripción: Calcula el factorial de un número.
-      - Nombre de archivo: factorialfor.cpp
+      - Nombre de archivo: `factorialfor.cpp`
       - Ejemplo:
       ```
       Entrada: 4
@@ -254,7 +256,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 14. [ ] **Secuencia de Números Pares:**
       - Descripción: Genera los primeros `n` números pares.
-      - Nombre de archivo: nparesfor.cpp
+      - Nombre de archivo: `nparesfor.cpp`
       - Ejemplo:
       ```
       Entrada: 6
@@ -264,7 +266,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 15. [ ] **Conteo Regresivo:**
       - Descripción: Realiza un conteo regresivo desde un número hasta 1.
-      - Nombre de archivo: regresivofor.cpp
+      - Nombre de archivo: `regresivofor.cpp`
       - Ejemplo:
       ```
       Entrada: 9
@@ -275,7 +277,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 # Ciclo While
 16. [ ] **Contador Ascendente:**
       - Descripción: Usa un bucle `while` para contar desde 1 hasta un número dado por el usuario.
-      - Nombre de archivo: contadorwhile.cpp
+      - Nombre de archivo: `contadorwhile.cpp`
       - Ejemplo:
       ```
       Entrada: 5
@@ -286,7 +288,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 17. [ ] **Secuencia de Fibonacci:**
       - Descripción: Genera y muestra los primeros `n` términos de la secuencia de Fibonacci utilizando un bucle `while`.
-      - Nombre de archivo: fibonacciwhile.cpp
+      - Nombre de archivo: `fibonacciwhile.cpp`
       - Ejemplo:
       ```
       Entrada: 8
@@ -296,7 +298,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 18. [ ] **Suma de Números:**
       - Descripción: Solicita al usuario que ingrese números hasta que ingrese un valor negativo. Luego, calcula y muestra la suma de los números ingresados.
-      - Nombre de archivo: sumanumeroswhile.cpp
+      - Nombre de archivo: `sumanumeroswhile.cpp`
       - Ejemplo:
       ```
       Entrada: 4, 7, 2, -1
@@ -305,7 +307,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 19. [ ] **Tabla de Potencias:**
       - Descripción: Genera una tabla de potencias de 2 (2^0, 2^1, 2^2, ...) hasta que la potencia sea mayor que un valor dado por el usuario.
-      - Nombre de archivo: potenciaswhile.cpp
+      - Nombre de archivo: `potenciaswhile.cpp`
       - Ejemplo:
       ```
       Entrada: 10
@@ -318,7 +320,7 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 20. [ ] **Contador Regresivo con Salto:**
       - Descripción: Solicita al usuario ingresar un número inicial y un tamaño de salto. Luego, realiza un conteo regresivo desde el número inicial hasta 1, utilizando el tamaño de salto especificado en cada iteración.
-      - Nombre de archivo: regresivosaltowhile.cpp
+      - Nombre de archivo: `regresivosaltowhile.cpp`
       - Ejemplo:
       ```
       Entrada: Número inicial: 20, Tamaño del salto: 3
