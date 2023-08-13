@@ -1,37 +1,256 @@
 {
-    "sumar.cpp" : {
-        "filename": "sumar.cpp",
+    "1. positivonegativo.cpp" : {
+        "filename": "positivonegativo.cpp",
         "tests": [
             {
-                "expected_output": "10",
+                "inputs": ["5"],
+                "expected_output": "El número 5 es positivo.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["-10"],
+                "expected_output": "El número -10 es negativo.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["0"],
+                "expected_output": "El número 0 es cero.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["-190"],
+                "expected_output": "El número -190 es negativo.",
                 "obtained_output": "",
                 "score": 0
             }
         ]
     },
-    "multiplicar.cpp" : {
-        "filename": "multiplicar.cpp",
+    "2. parimpar.cpp" : {
+        "filename": "parimpar.cpp",
         "tests": [
             {
-                "inputs": ["2", "2", "3", "4", "5"],
-                "expected_output": "240",
-                "obtained_output": ""
-            }
-        ],
-        "score": 0
-    },
-    "quicksort.cpp" : {
-        "filename": "quicksort.cpp",
-        "tests": [
-            {
-                "expected_output": "11 12 22 25 34 64 90 ",
-                "obtained_output": ""
+                "inputs": ["10"],
+                "expected_output": "El número 10 es par.",
+                "obtained_output": "",
+                "score": 0
             },
             {
-                "expected_output": "11 12 22 25 34 64 0 ",
-                "obtained_output": ""
+                "inputs": ["0"],
+                "expected_output": "El número 0 es par.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["7"],
+                "expected_output": "El número 0 es impar.",
+                "obtained_output": "",
+                "score": 0
             }
-        ],
-        "score": 0
+        ]
+    },
+    "3. comparanumeros.cpp" : {
+        "filename": "comparanumeros.cpp",
+        "tests": [
+            {
+                "inputs": ["7", "12"],
+                "expected_output": "El número 12 es mayor que 7.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["8", "8"],
+                "expected_output": "Los numeros 8 y 8 son iguales",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "4. notas.cpp" : {
+        "filename": "notas.cpp",
+        "tests": [
+            {
+                "inputs": ["10"],
+                "expected_output": "Calificación: A",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["9.4"],
+                "expected_output": "Calificación: B",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["6.3"],
+                "expected_output": "Calificación: C",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["4"],
+                "expected_output": "Calificación: D",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "5. edades.cpp" : {
+        "filename": "edades.cpp",
+        "tests": [
+            {
+                "inputs": ["11"],
+                "expected_output": "Niño",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["15"],
+                "expected_output": "Adolescente",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["35"],
+                "expected_output": "Adulto",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "6. password.cpp" : {
+        "filename": "password.cpp",
+        "tests": [
+            {
+                "inputs": ["clave123"],
+                "expected_output": "Contraseña correcta.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["clav123"],
+                "expected_output": "Contraseña incorrecta.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "7. divisible.cpp" : {
+        "filename": "divisible.cpp",
+        "tests": [
+            {
+                "inputs": ["15", "3"],
+                "expected_output": "15 es divisible por 3.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["10", "6"],
+                "expected_output": "10 no es divisible por 6.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "8. categorizanumeros.cpp" : {
+        "filename": "categorizanumeros.cpp",
+        "tests": [
+            {
+                "inputs": ["-8"],
+                "expected_output": "El número -8 es negativo y es pequeño.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["18"],
+                "expected_output": "El número 18 es positivo y no es pequeño.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "9. diasemana.cpp" : {
+        "filename": "diasemana.cpp",
+        "tests": [
+            {
+                "inputs": ["1"],
+                "expected_output": "El número 1 corresponde al lunes.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2"],
+                "expected_output": "El número 2 corresponde al martes.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["3"],
+                "expected_output": "El número 3 corresponde al miércoles.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["4"],
+                "expected_output": "El número 4 corresponde al jueves.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["5"],
+                "expected_output": "El número 5 corresponde al viernes.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["6"],
+                "expected_output": "El número 6 corresponde al sábado.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["7"],
+                "expected_output": "El número 7 corresponde al domingo.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "10. bisiesto.cpp" : {
+        "filename": "bisiesto.cpp",
+        "tests": [
+            {
+                "inputs": ["2024"],
+                "expected_output": "El año 2024 es bisiesto.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2023"],
+                "expected_output": "El año 2023 no es bisiesto.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2000"],
+                "expected_output": "El año 2000 es bisiesto.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2072"],
+                "expected_output": "El año 2072 es bisiesto.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["2042"],
+                "expected_output": "El año 2042 no es bisiesto.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
     }
 }
