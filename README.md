@@ -221,107 +221,107 @@ En ningún programa se requiere que imprima un mensaje para solicitar los valore
 
 # Ciclo FOR
 11. [ ] **Suma de Números:**
-   - Descripción: Calcula la suma de los números del 1 al `n`.
-   - Nombre de archivo: sumafor.cpp
-   - Ejemplo:
-     ```
-     Entrada: 5
-     Salida: La suma de los números del 1 al 5 es 15.
-     ```
+      - Descripción: Calcula la suma de los números del 1 al `n`.
+      - Nombre de archivo: sumafor.cpp
+      - Ejemplo:
+      ```
+      Entrada: 5
+      Salida: La suma de los números del 1 al 5 es 15.
+      ```
 
 12. [ ] **Tabla de Multiplicar:**
-   - Descripción: Muestra la tabla de multiplicar de un número dado.
-   - Nombre de archivo: tablafor.cpp
-   - Ejemplo:
-     ```
-     Entrada: 7
-     Salida: Tabla de multiplicar del 7:
-     7 x 1 = 7
-     7 x 2 = 14
-     ...
-     7 x 10 = 70
-     ```
-     > :warning: Revisa que cada línea impresa la termines con un salto de linea, incluso la final.
+      - Descripción: Muestra la tabla de multiplicar de un número dado.
+      - Nombre de archivo: tablafor.cpp
+      - Ejemplo:
+      ```
+      Entrada: 7
+      Salida: Tabla de multiplicar del 7:
+      7 x 1 = 7
+      7 x 2 = 14
+      ...
+      7 x 10 = 70
+      ```
+      > :warning: Revisa que cada línea impresa la termines con un salto de linea, incluso la final.
 
 13. [ ] **Factorial:**
-   - Descripción: Calcula el factorial de un número.
-   - Nombre de archivo: factorialfor.cpp
-   - Ejemplo:
-     ```
-     Entrada: 4
-     Salida: El factorial de 4 es 24.
+      - Descripción: Calcula el factorial de un número.
+      - Nombre de archivo: factorialfor.cpp
+      - Ejemplo:
+      ```
+      Entrada: 4
+      Salida: El factorial de 4 es 24.
      ```
 
 14. [ ] **Secuencia de Números Pares:**
-   - Descripción: Genera los primeros `n` números pares.
-   - Nombre de archivo: nparesfor.cpp
-   - Ejemplo:
-     ```
-     Entrada: 6
-     Salida: Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12,
-     ```
-     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+      - Descripción: Genera los primeros `n` números pares.
+      - Nombre de archivo: nparesfor.cpp
+      - Ejemplo:
+      ```
+      Entrada: 6
+      Salida: Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12,
+      ```
+      > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 15. [ ] **Conteo Regresivo:**
-   - Descripción: Realiza un conteo regresivo desde un número hasta 1.
-   - Nombre de archivo: regresivofor.cpp
-   - Ejemplo:
-     ```
-     Entrada: 9
-     Salida: Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1,
-     ```
-     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+      - Descripción: Realiza un conteo regresivo desde un número hasta 1.
+      - Nombre de archivo: regresivofor.cpp
+      - Ejemplo:
+      ```
+      Entrada: 9
+      Salida: Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1,
+      ```
+      > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 # Ciclo While
 16. [ ] **Contador Ascendente:**
-   - Descripción: Usa un bucle `while` para contar desde 1 hasta un número dado por el usuario.
-   - Nombre de archivo: contadorwhile.cpp
-   - Ejemplo:
-     ```
-     Entrada: 5
-     Salida: 1, 2, 3, 4, 5,
-     ```
-     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+      - Descripción: Usa un bucle `while` para contar desde 1 hasta un número dado por el usuario.
+      - Nombre de archivo: contadorwhile.cpp
+      - Ejemplo:
+      ```
+      Entrada: 5
+      Salida: 1, 2, 3, 4, 5,
+      ```
+      > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 
 17. [ ] **Secuencia de Fibonacci:**
-   - Descripción: Genera y muestra los primeros `n` términos de la secuencia de Fibonacci utilizando un bucle `while`.
-   - Nombre de archivo: fibonacciwhile.cpp
-   - Ejemplo:
-     ```
-     Entrada: 8
-     Salida: Secuencia de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13,
-     ```
-     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+      - Descripción: Genera y muestra los primeros `n` términos de la secuencia de Fibonacci utilizando un bucle `while`.
+      - Nombre de archivo: fibonacciwhile.cpp
+      - Ejemplo:
+      ```
+      Entrada: 8
+      Salida: Secuencia de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13,
+      ```
+      > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
 18. [ ] **Suma de Números:**
-   - Descripción: Solicita al usuario que ingrese números hasta que ingrese un valor negativo. Luego, calcula y muestra la suma de los números ingresados.
-   - Nombre de archivo: sumanumeroswhile.cpp
-   - Ejemplo:
-     ```
-     Entrada: 4, 7, 2, -1
-     Salida: La suma de los números ingresados es 13.
-     ```
+      - Descripción: Solicita al usuario que ingrese números hasta que ingrese un valor negativo. Luego, calcula y muestra la suma de los números ingresados.
+      - Nombre de archivo: sumanumeroswhile.cpp
+      - Ejemplo:
+      ```
+      Entrada: 4, 7, 2, -1
+      Salida: La suma de los números ingresados es 13.
+      ```
 
 19. [ ] **Tabla de Potencias:**
-   - Descripción: Genera una tabla de potencias de 2 (2^0, 2^1, 2^2, ...) hasta que la potencia sea mayor que un valor dado por el usuario.
-   - Nombre de archivo: potenciaswhile.cpp
-   - Ejemplo:
-     ```
-     Entrada: 10
-     Salida: 2^0 = 1
-             2^1 = 2
-             2^2 = 4
-             2^3 = 8
-     ```
-     > :warning: Revisa que cada línea impresa la termines con un salto de linea, incluso la final.
+      - Descripción: Genera una tabla de potencias de 2 (2^0, 2^1, 2^2, ...) hasta que la potencia sea mayor que un valor dado por el usuario.
+      - Nombre de archivo: potenciaswhile.cpp
+      - Ejemplo:
+      ```
+      Entrada: 10
+      Salida: 2^0 = 1
+               2^1 = 2
+               2^2 = 4
+               2^3 = 8
+      ```
+      > :warning: Revisa que cada línea impresa la termines con un salto de linea, incluso la final.
 
 20. [ ] **Contador Regresivo con Salto:**
-   - Descripción: Solicita al usuario ingresar un número inicial y un tamaño de salto. Luego, realiza un conteo regresivo desde el número inicial hasta 1, utilizando el tamaño de salto especificado en cada iteración.
-   - Nombre de archivo: regresivosaltowhile.cpp
-   - Ejemplo:
-     ```
-     Entrada: Número inicial: 20, Tamaño del salto: 3
-     Salida: 20, 17, 14, 11, 8, 5, 2,
-     ```
-     > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+      - Descripción: Solicita al usuario ingresar un número inicial y un tamaño de salto. Luego, realiza un conteo regresivo desde el número inicial hasta 1, utilizando el tamaño de salto especificado en cada iteración.
+      - Nombre de archivo: regresivosaltowhile.cpp
+      - Ejemplo:
+      ```
+      Entrada: Número inicial: 20, Tamaño del salto: 3
+      Salida: 20, 17, 14, 11, 8, 5, 2,
+      ```
+      > :warning: Observa que el símbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
