@@ -24,13 +24,13 @@ Recuerda compilar y ejecutar con la siguiente secuencia de comandos.
 > g++ miprograma.cpp -o miprograma.exe
 > ```
 
-También puedes ejecutar el programa de puthon **evaluar.py**, el cual, junto con el archivo **conf_eval.json** probará tus programas para saber si estan correctos. 
+También puedes ejecutar el programa de python **evaluar.py**, el cual, junto con el archivo **conf_eval.json** probará tus programas para saber si estan correctos. 
 
 ```bash
 python evaluar.py
 ```
 
-:warning: Cada ejercio cuenta con un ejemplo, con la entrada y la salida esperada. Las palabras "Entrada:" y "Salida:" no deben imprimirse en la consola. Revisa bien que la salida sea escriba exactamente con el formato que el texto de ejemplo muestra, si no el programa evaluador lo marcará como fallido.
+:warning: Cada ejercicio cuenta con un ejemplo, con la entrada y la salida esperada. Las palabras "Entrada:" y "Salida:" no deben imprimirse en la consola. Revisa bien que la salida sea escriba exactamente con el formato que el texto de ejemplo muestra, si no el programa evaluador lo marcará como fallido.
 
 - :heavy_check_mark: Ejemplo:
      ```
