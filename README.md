@@ -1,7 +1,7 @@
 # Ejercicios para practicar C++
 
 # Condicionales IF
-1. **Número Positivo/Negativo:**
+1. [ ] **Número Positivo/Negativo:**
    - Descripción: Determina si un número es positivo, negativo o cero.
    - Nombre de archivo: positivonegativo.cpp
    - Ejemplo:
@@ -14,7 +14,7 @@
      Salida: El número 0 es cero.
      ```
 
-2. **Número Par/Impar:**
+2. [ ] **Número Par/Impar:**
    - Descripción: Verifica si un número es par o impar.
    - Nombre de archivo: parimpar.cpp
    - Ejemplo:
@@ -25,7 +25,7 @@
      Salida: El número 3 es impar.
      ```
 
-3. **Comparación de Números:**
+3. [ ] **Comparación de Números:**
    - Descripción: Compara dos números y muestra cuál es mayor o si son iguales.
    - Nombre de archivo: comparanumeros.cpp
    - Ejemplo:
@@ -36,7 +36,7 @@
      Salida: El número 12 es mayor que 7.
      ```
 
-4. **Clasificación de Notas:**
+4. [ ] **Clasificación de Notas:**
    - Descripción: Convierte una calificación numérica en una clasificación (A, B, C, etc.).
    - Nombre de archivo: notas.cpp
    
@@ -53,7 +53,7 @@
      Salida: Calificación: B
      ```
 
-5. **Categorización de Edades:**
+5. [ ] **Categorización de Edades:**
    - Descripción: Categoriza una edad en "niño", "adolescente" o "adulto".
    - Nombre de archivo: edades.cpp
    
@@ -69,7 +69,7 @@
      Salida: Categoría: Adulto
      ```
 
-6. **Verificación de Contraseña:**
+6. [ ] **Verificación de Contraseña:**
    - Descripción: Verifica si una contraseña ingresada es correcta.
    - Nombre de archivo: password.cpp
    - Ejemplo:
@@ -80,7 +80,7 @@
      Salida: Contraseña incorrecta.
      ```
 
-7. **Divisibilidad:**
+7. [ ] **Divisibilidad:**
    - Descripción: Determina si un número es divisible por otro número.
    - Nombre de archivo: divisible.cpp
    - Ejemplo:
@@ -91,7 +91,7 @@
      Salida: 7 no es divisible por 5.
      ```
 
-8. **Categorización de Números:**
+8. [ ] **Categorización de Números:**
    - Descripción: Categoriza un número en "positivo", "negativo" o "cero", y luego en "pequeño" o no. "pequeño" es cuando el valor absoluto es menor que 10.
    - Nombre de archivo: categorizanumeros.cpp
    - Ejemplo:
@@ -102,7 +102,7 @@
      Salida: El número 12 es positivo y no es pequeño.
      ```
 
-9. **Determinar Día de la Semana:**
+9. [ ] **Determinar Día de la Semana:**
    - Descripción: Asocia un número del 1 al 7 con un día de la semana.
    - Nombre de archivo: diasemana.cpp
    - Ejemplo:
@@ -111,7 +111,7 @@
      Salida: El número 3 corresponde al miércoles.
      ```
 
-10. **Año Bisiesto:**
+10. [ ] **Año Bisiesto:**
     - Descripción: Verifica si un año es bisiesto o no.
     - Nombre de archivo: bisiesto.cpp
     - Ejemplo:
@@ -121,7 +121,7 @@
       ```
 
 # Ciclo FOR
-11. **Suma de Números:**
+11. [ ] **Suma de Números:**
    - Descripción: Calcula la suma de los números del 1 al `n`.
    - Nombre de archivo: sumafor.cpp
    - Ejemplo:
@@ -130,7 +130,7 @@
      Salida: La suma de los números del 1 al 5 es 15.
      ```
 
-12. **Tabla de Multiplicar:**
+12. [ ] **Tabla de Multiplicar:**
    - Descripción: Muestra la tabla de multiplicar de un número dado.
    - Nombre de archivo: tablafor.cpp
    - Ejemplo:
@@ -142,9 +142,9 @@
      ...
      7 x 10 = 70
      ```
-     > :warning: Revisa que cada linea impresa la termines con un salto de linea, incluso la final.
+     > :warning: Revisa que cada línea impresa la termines con un salto de linea, incluso la final.
 
-13. **Factorial:**
+13. [ ] **Factorial:**
    - Descripción: Calcula el factorial de un número.
    - Nombre de archivo: factorialfor.cpp
    - Ejemplo:
@@ -153,7 +153,7 @@
      Salida: El factorial de 4 es 24.
      ```
 
-14. **Secuencia de Números Pares:**
+14. [ ] **Secuencia de Números Pares:**
    - Descripción: Genera los primeros `n` números pares.
    - Nombre de archivo: nparesfor.cpp
    - Ejemplo:
@@ -161,9 +161,9 @@
      Entrada: 6
      Salida: Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12,
      ```
-     > :warning: Observa que el simbolo final de la linea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+     > :warning: Observa que el simbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
 
-15. **Conteo Regresivo:**
+15. [ ] **Conteo Regresivo:**
    - Descripción: Realiza un conteo regresivo desde un número hasta 1.
    - Nombre de archivo: regresivofor.cpp
    - Ejemplo:
@@ -171,4 +171,56 @@
      Entrada: 9
      Salida: Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1,
      ```
-    > :warning: Observa que el simbolo final de la linea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+     > :warning: Observa que el simbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+
+# Ciclo While
+16. [ ] **Contador Ascendente:**
+   - Descripción: Usa un bucle `while` para contar desde 1 hasta un número dado por el usuario.
+   - Nombre de archivo: contadorwhile.cpp
+   - Ejemplo:
+     ```
+     Entrada: 5
+     Salida: 1, 2, 3, 4, 5,
+     ```
+     > :warning: Observa que el simbolo final de la línea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+
+
+17. [ ] **Secuencia de Fibonacci:**
+   - Descripción: Genera y muestra los primeros `n` términos de la secuencia de Fibonacci utilizando un bucle `while`.
+   - Nombre de archivo: fibonacciwhile.cpp
+   - Ejemplo:
+     ```
+     Entrada: 8
+     Salida: Secuencia de Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13,
+     ```
+
+18. [ ] **Suma de Números:**
+   - Descripción: Solicita al usuario que ingrese números hasta que ingrese un valor negativo. Luego, calcula y muestra la suma de los números ingresados.
+   - Nombre de archivo: sumanumeroswhile.cpp
+   - Ejemplo:
+     ```
+     Entrada: 4, 7, 2, -1
+     Salida: La suma de los números ingresados es 13.
+     ```
+
+19. [ ] **Tabla de Potencias:**
+   - Descripción: Genera una tabla de potencias de 2 (2^0, 2^1, 2^2, ...) hasta que la potencia sea mayor que un valor dado por el usuario.
+   - Nombre de archivo: potenciaswhile.cpp
+   - Ejemplo:
+     ```
+     Entrada: 10
+     Salida: 2^0 = 1
+             2^1 = 2
+             2^2 = 4
+             2^3 = 8
+     ```
+     > :warning: Revisa que cada línea impresa la termines con un salto de linea, incluso la final.
+
+20. [ ] **Contador Regresivo con Salto:**
+   - Descripción: Solicita al usuario ingresar un número inicial y un tamaño de salto. Luego, realiza un conteo regresivo desde el número inicial hasta 1, utilizando el tamaño de salto especificado en cada iteración.
+   - Nombre de archivo: regresivosaltowhile.cpp
+   - Ejemplo:
+     ```
+     Entrada: Número inicial: 20, Tamaño del salto: 3
+     Salida: 20, 17, 14, 11, 8, 5, 2,
+     ```
