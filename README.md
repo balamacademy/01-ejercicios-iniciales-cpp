@@ -37,7 +37,7 @@ python evaluar.py
      Entrada: 22
      Salida: Categoría: Adulto
      ```
-- :X: Ejemplo:
+- ✖️: Ejemplo:
     ```
     Entrada: Ingrese su edad: 22
     Salida: Categoría: Adulto
