@@ -119,3 +119,56 @@
       Entrada: 2024
       Salida: El año 2024 es bisiesto.
       ```
+
+# Ciclo FOR
+11. **Suma de Números:**
+   - Descripción: Calcula la suma de los números del 1 al `n`.
+   - Nombre de archivo: sumafor.cpp
+   - Ejemplo:
+     ```
+     Entrada: 5
+     Salida: La suma de los números del 1 al 5 es 15.
+     ```
+
+12. **Tabla de Multiplicar:**
+   - Descripción: Muestra la tabla de multiplicar de un número dado.
+   - Nombre de archivo: tablafor.cpp
+   - Ejemplo:
+     ```
+     Entrada: 7
+     Salida: Tabla de multiplicar del 7:
+     7 x 1 = 7
+     7 x 2 = 14
+     ...
+     7 x 10 = 70
+     ```
+     > :warning: Revisa que cada linea impresa la termines con un salto de linea, incluso la final.
+
+13. **Factorial:**
+   - Descripción: Calcula el factorial de un número.
+   - Nombre de archivo: factorialfor.cpp
+   - Ejemplo:
+     ```
+     Entrada: 4
+     Salida: El factorial de 4 es 24.
+     ```
+
+14. **Secuencia de Números Pares:**
+   - Descripción: Genera los primeros `n` números pares.
+   - Nombre de archivo: nparesfor.cpp
+   - Ejemplo:
+     ```
+     Entrada: 6
+     Salida: Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12,
+     ```
+     > :warning: Observa que el simbolo final de la linea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.
+
+15. **Conteo Regresivo:**
+   - Descripción: Realiza un conteo regresivo desde un número hasta 1.
+   - Nombre de archivo: regresivofor.cpp
+   - Ejemplo:
+     ```
+     Entrada: 9
+     Salida: Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1,
+     ```
+    > :warning: Observa que el simbolo final de la linea es una coma "," esto para que no agregues condiciones innecesarias para el ejercicio.

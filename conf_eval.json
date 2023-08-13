@@ -252,5 +252,90 @@
                 "score": 0
             }
         ]
+    },
+    "11. sumafor.cpp" : {
+        "filename": "sumafor.cpp",
+        "tests": [
+            {
+                "inputs": ["5"],
+                "expected_output": "La suma de los números del 1 al 5 es 15.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["10"],
+                "expected_output": "La suma de los números del 1 al 10 es 55.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["100"],
+                "expected_output": "La suma de los números del 1 al 100 es 5050.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "12. tablafor.cpp" : {
+        "filename": "tablafor.cpp",
+        "tests": [
+            {
+                "inputs": ["7"],
+                "expected_output": "7 X 1 = 7\n7 X 2 = 14\n7 X 3 = 21\n7 X 4 = 28\n7 X 5 = 35\n7 X 6 = 42\n7 X 7 = 49\n7 X 8 = 56\n7 X 9 = 63\n7 X 10 = 70\n",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["15"],
+                "expected_output": "15 X 1 = 15\n15 X 2 = 30\n15 X 3 = 45\n15 X 4 = 60\n15 X 5 = 75\n15 X 6 = 90\n15 X 7 = 105\n15 X 8 = 120\n15 X 9 = 135\n15 X 10 = 150\n",
+                "obtained_output": "",
+                "score": 0 
+            }
+        ]
+    },
+    "13. factorialfor.cpp" : {
+        "filename": "factorialfor.cpp",
+        "tests": [
+            {
+                "inputs": ["4"],
+                "expected_output": "El factorial de 4 es 24.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["7"],
+                "expected_output": "El factorial de 7 es 5040.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "14. nparesfor.cpp" : {
+        "filename": "nparesfor.cpp",
+        "tests": [
+            {
+                "inputs": ["6"],
+                "expected_output": "Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12.",
+                "obtained_output": "",
+                "score": 0
+            },
+            {
+                "inputs": ["10"],
+                "expected_output": "Los primeros 10 números pares son: 2, 4, 6, 8, 10, 12, 14, 15, 16, 18.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
+    },
+    "15. regresivofor.cpp" : {
+        "filename": "regresivofor.cpp",
+        "tests": [
+            {
+                "inputs": ["9"],
+                "expected_output": "Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1.",
+                "obtained_output": "",
+                "score": 0
+            }
+        ]
     }
 }
