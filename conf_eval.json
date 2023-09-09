@@ -4,25 +4,25 @@
         "tests": [
             {
                 "inputs": ["5"],
-                "expected_output": "El número 5 es positivo.",
+                "expected_output": "El numero 5 es positivo.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["-10"],
-                "expected_output": "El número -10 es negativo.",
+                "expected_output": "El numero -10 es negativo.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["0"],
-                "expected_output": "El número 0 es cero.",
+                "expected_output": "El numero 0 es cero.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["-190"],
-                "expected_output": "El número -190 es negativo.",
+                "expected_output": "El numero -190 es negativo.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -33,19 +33,19 @@
         "tests": [
             {
                 "inputs": ["10"],
-                "expected_output": "El número 10 es par.",
+                "expected_output": "El numero 10 es par.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["0"],
-                "expected_output": "El número 0 es par.",
+                "expected_output": "El numero 0 es par.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["7"],
-                "expected_output": "El número 0 es impar.",
+                "expected_output": "El numero 7 es impar.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -56,7 +56,7 @@
         "tests": [
             {
                 "inputs": ["7", "12"],
-                "expected_output": "El número 12 es mayor que 7.",
+                "expected_output": "El numero 12 es mayor que 7.",
                 "obtained_output": "",
                 "score": 0
             },
@@ -73,25 +73,25 @@
         "tests": [
             {
                 "inputs": ["10"],
-                "expected_output": "Calificación: A",
+                "expected_output": "Calificacion: A",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["9.4"],
-                "expected_output": "Calificación: B",
+                "expected_output": "Calificacion: B",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["6.3"],
-                "expected_output": "Calificación: C",
+                "expected_output": "Calificacion: C",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["4"],
-                "expected_output": "Calificación: D",
+                "expected_output": "Calificacion: D",
                 "obtained_output": "",
                 "score": 0
             }
@@ -102,7 +102,7 @@
         "tests": [
             {
                 "inputs": ["11"],
-                "expected_output": "Niño",
+                "expected_output": "Nino",
                 "obtained_output": "",
                 "score": 0
             },
@@ -125,13 +125,13 @@
         "tests": [
             {
                 "inputs": ["clave123"],
-                "expected_output": "Contraseña correcta.",
+                "expected_output": "Contrasena correcta.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["clav123"],
-                "expected_output": "Contraseña incorrecta.",
+                "expected_output": "Contrasena incorrecta.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -159,13 +159,13 @@
         "tests": [
             {
                 "inputs": ["-8"],
-                "expected_output": "El número -8 es negativo y es pequeño.",
+                "expected_output": "El numero -8 es negativo y es pequeno.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["18"],
-                "expected_output": "El número 18 es positivo y no es pequeño.",
+                "expected_output": "El numero 18 es positivo y no es pequeno.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -176,43 +176,43 @@
         "tests": [
             {
                 "inputs": ["1"],
-                "expected_output": "El número 1 corresponde al lunes.",
+                "expected_output": "El numero 1 corresponde al lunes.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["2"],
-                "expected_output": "El número 2 corresponde al martes.",
+                "expected_output": "El numero 2 corresponde al martes.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["3"],
-                "expected_output": "El número 3 corresponde al miércoles.",
+                "expected_output": "El numero 3 corresponde al miercoles.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["4"],
-                "expected_output": "El número 4 corresponde al jueves.",
+                "expected_output": "El numero 4 corresponde al jueves.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["5"],
-                "expected_output": "El número 5 corresponde al viernes.",
+                "expected_output": "El numero 5 corresponde al viernes.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["6"],
-                "expected_output": "El número 6 corresponde al sábado.",
+                "expected_output": "El numero 6 corresponde al sabado.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["7"],
-                "expected_output": "El número 7 corresponde al domingo.",
+                "expected_output": "El numero 7 corresponde al domingo.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -223,31 +223,31 @@
         "tests": [
             {
                 "inputs": ["2024"],
-                "expected_output": "El año 2024 es bisiesto.",
+                "expected_output": "El anio 2024 es bisiesto.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["2023"],
-                "expected_output": "El año 2023 no es bisiesto.",
+                "expected_output": "El anio 2023 no es bisiesto.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["2000"],
-                "expected_output": "El año 2000 es bisiesto.",
+                "expected_output": "El anio 2000 es bisiesto.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["2072"],
-                "expected_output": "El año 2072 es bisiesto.",
+                "expected_output": "El anio 2072 es bisiesto.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["2042"],
-                "expected_output": "El año 2042 no es bisiesto.",
+                "expected_output": "El anio 2042 no es bisiesto.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -258,19 +258,19 @@
         "tests": [
             {
                 "inputs": ["5"],
-                "expected_output": "La suma de los números del 1 al 5 es 15.",
+                "expected_output": "La suma de los numeros del 1 al 5 es 15.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["10"],
-                "expected_output": "La suma de los números del 1 al 10 es 55.",
+                "expected_output": "La suma de los numeros del 1 al 10 es 55.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["100"],
-                "expected_output": "La suma de los números del 1 al 100 es 5050.",
+                "expected_output": "La suma de los numeros del 1 al 100 es 5050.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -315,13 +315,13 @@
         "tests": [
             {
                 "inputs": ["6"],
-                "expected_output": "Los primeros 6 números pares son: 2, 4, 6, 8, 10, 12,",
+                "expected_output": "Los primeros 6 numeros pares son: 2, 4, 6, 8, 10, 12, ",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["10"],
-                "expected_output": "Los primeros 10 números pares son: 2, 4, 6, 8, 10, 12, 14, 15, 16, 18,",
+                "expected_output": "Los primeros 10 numeros pares son: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, ",
                 "obtained_output": "",
                 "score": 0
             }
@@ -332,7 +332,7 @@
         "tests": [
             {
                 "inputs": ["9"],
-                "expected_output": "Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1,",
+                "expected_output": "Conteo regresivo desde 9: 9, 8, 7, 6, 5, 4, 3, 2, 1, ",
                 "obtained_output": "",
                 "score": 0
             }
@@ -343,13 +343,13 @@
         "tests": [
             {
                 "inputs": ["5"],
-                "expected_output": "1, 2, 3, 4, 5,",
+                "expected_output": "1, 2, 3, 4, 5, ",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["10"],
-                "expected_output": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10,",
+                "expected_output": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ",
                 "obtained_output": "",
                 "score": 0
             }
@@ -360,13 +360,13 @@
         "tests": [
             {
                 "inputs": ["8"],
-                "expected_output": "0, 1, 1, 2, 3, 5, 8, 13,",
+                "expected_output": "0, 1, 1, 2, 3, 5, 8, 13, ",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["10"],
-                "expected_output": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34",
+                "expected_output": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ",
                 "obtained_output": "",
                 "score": 0
             }
@@ -377,13 +377,13 @@
         "tests": [
             {
                 "inputs": ["4", "7", "2", "-1"],
-                "expected_output": "La suma de los números ingresados es 13.",
+                "expected_output": "La suma de los numeros ingresados es 13.",
                 "obtained_output": "",
                 "score": 0
             },
             {
                 "inputs": ["5", "5", "10", "15", "-7"],
-                "expected_output": "La suma de los números ingresados es 35.",
+                "expected_output": "La suma de los numeros ingresados es 35.",
                 "obtained_output": "",
                 "score": 0
             }
@@ -411,7 +411,7 @@
         "tests": [
             {
                 "inputs": ["20", "3"],
-                "expected_output": "20, 17, 14, 11, 8, 5, 2,",
+                "expected_output": "20, 17, 14, 11, 8, 5, 2, ",
                 "obtained_output": "",
                 "score": 0
             }
